@@ -1,0 +1,371 @@
+/* style.css */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial;
+}
+
+body{
+  background:#050816;
+  color:white;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 8%;
+  background:#0b1023;
+}
+
+.logo{
+  color:#5b7cff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.logo span{
+    color: white;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+nav ul{
+  display:flex;
+  gap:25px;
+  list-style:none;
+}
+
+nav ul li a{
+  text-decoration:none;
+  color:white;
+}
+
+.cv-btn{
+  padding:10px 20px;
+  border:none;
+  background:#5b7cff;
+  color:white;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+/* Hero */
+
+.hero{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:80px 8%;
+  flex-wrap:wrap;
+}
+
+.hero-text{
+  width:500px;
+}
+
+.hero-text h1{
+  font-size:60px;
+}
+
+.hero-text h2{
+  color:#5b7cff;
+  margin:10px 0;
+}
+
+.hero-text p{
+  margin:20px 0;
+  line-height:25px;
+}
+
+.btns button{ 
+  padding:12px 25px;
+  margin-right:10px;
+  border:none;
+  border-radius:5px;
+  background:#5b7cff;
+  color:white;
+  cursor:pointer;
+}
+
+.contact-btn{
+  background:transparent !important;
+  border:1px solid white !important;
+}
+
+.hero-img img{
+  width:300px;
+  border-radius:50%;
+  border:5px solid #5b7cff;
+}
+
+/* About */
+
+.about{
+  display:flex;
+  gap:30px;
+  padding:50px 8%;
+  flex-wrap:wrap;
+}
+
+.box{
+  flex:1;
+  background:#11182d;
+  padding:30px;
+  border-radius:10px;
+}
+
+.box h2{
+  margin-bottom:20px;
+}
+
+.box p{
+  line-height:25px;
+  margin-bottom:20px;
+}
+
+.box button{
+  padding:10px 20px;
+  border:none;
+  background:#5b7cff;
+  color:white;
+  border-radius:5px;
+}
+
+.skills{
+  display:flex;
+  gap:15px;
+  flex-wrap:wrap;
+}
+
+.skill{
+  background:#1c2440;
+  padding:15px 20px;
+  border-radius:5px;
+  text-align: center;
+  margin-left: 40px;
+}
+
+.skill img{
+   width: 60px;
+   padding-bottom: 8px;
+}
+
+/* Projects */
+
+.projects{
+  padding:50px 8%;
+}
+
+.projects h2{
+  text-align:center;
+  margin-bottom:40px;
+}
+
+.main-project{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.card{
+    min-width:300px;
+}
+
+.project-container{
+    display:flex;
+    gap:20px;
+    overflow:hidden;
+    scroll-behavior:smooth;
+    width:100%;
+}
+
+.card{
+  width:300px;
+  background:#11182d;
+  border-radius:10px;
+  overflow:hidden;
+  transition:.3s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+}
+
+.card img{
+  width: 300px;
+  height: 200px;
+}
+
+.card h3{
+  padding:15px;
+}
+
+.card p{
+  padding:0 15px 15px;
+}
+
+.project-btns{
+  padding:15px;
+}
+
+.project-btns button{
+  padding:10px 15px;
+  border:none;
+  background:#5b7cff;
+  color:white;
+  border-radius:5px;
+  margin-right:10px;
+}
+
+.project-btns button a{
+  color: white;
+  text-decoration: none;
+}
+
+
+/* Slider Arrows */
+#next,
+#prev{
+  width:60px;
+  height:60px;
+  border:none;
+  border-radius:50%;
+  background:#5b7cff;
+  color:white;
+  font-size:30px;
+  cursor:pointer;
+}
+
+/* Experience Section */
+
+.experience{
+  padding:60px 8%;
+}
+
+.experience h2{
+  text-align:center;
+  margin-bottom:40px;
+  color:white;
+}
+
+.experience-container{
+  display:flex;
+  flex-direction:column;
+  gap:25px;
+}
+
+/* Card */
+
+.exp-card{
+  background:#11182d;
+  padding:25px;
+  border-radius:12px;
+  border-left:5px solid #5b7cff;
+  transition:.3s;
+}
+
+.exp-card:hover{
+  transform:translateY(-8px);
+}
+
+.exp-top{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+}
+
+.exp-top h3{
+  color:white;
+  font-size:24px;
+}
+
+.exp-top span{
+  color:#5b7cff;
+  font-weight:bold;
+}
+
+.exp-card h4{
+  margin:12px 0;
+  color:#ccc;
+}
+
+.exp-card p{
+  color:#bdbdbd;
+  line-height:26px;
+}
+
+/* Contact */
+
+.contact{
+  padding:50px 8%;
+  text-align:center;
+}
+
+.contact h2{
+  margin-bottom:20px;
+}
+
+.contact-info p{
+  margin:10px 0;
+}
+
+.contact-info a{
+   text-decoration: none;
+   color: white;
+   font-size: 18px;
+}
+
+.contact-info i{
+   margin-right: 10px;
+   color:#5b7cff;
+}
+
+
+.icon img{
+  width: 30px;
+  background-color: white;
+  border-radius: 100px;
+  margin: 5px;
+  margin-top: 20px;
+}
+
+.icon img:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+  nav{
+    flex-direction:column;
+    gap:20px;
+  }
+
+  .hero{
+    text-align:center;
+    justify-content:center;
+  }
+
+  .hero-text h1{
+    font-size:40px;
+  }
+
+  .hero-img img{
+    margin-top:30px;
+  }
+
+}

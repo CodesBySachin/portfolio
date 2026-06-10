@@ -1,0 +1,256 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <title>Sachin Portfolio</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <h2 class="logo">
+    <span>S</span>achin
+  </h2>
+
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skill">Skills</a></li>
+      <li><a href="#project">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <a href="images/CV_Sachin.pdf" download>
+     <button class="cv-btn">Download CV</button>
+    </a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+
+    <div class="hero-text">
+      <h3>Hi, I am</h3>
+      <h1>Sachin Kumar</h1>
+      <h2>Frontend Developer</h2>
+
+      <p>
+        I am a passionate Frontend Developer looking for an opportunity 
+        to apply my skills and grow through real-world projects.
+      </p>
+
+      <div class="btns">
+        <a href="#project">
+          <button>View Projects</button>
+        </a>
+        <a href="#contact">
+          <button class="contact-btn">Contact Me</button>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-img">
+      <img src="images/mypicture.png" alt="">
+    </div>
+
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+
+    <div class="box">
+      <h2>About Me</h2>
+
+      <p id="aboutText">
+  Hello, I'm Sachin Kumar, a Front-End Developer...
+  <span id="moreText" style="display: none;">
+    I enjoy learning new technologies and continuously improving my development skills. I am currently looking for opportunities to gain industry experience, contribute to real-world projects, and grow as a web developer.
+  </span>
+</p>
+
+<button id="readMoreBtn">Read More</button>
+
+    </div>
+
+    <div class="box" id="skill">
+      <h2>My Skills</h2>
+
+      <div class="skills">
+
+        <div class="skill"> <img src="images/html.png"><br>HTML</div>
+        <div class="skill"><img src="images/css-3.png"><br>CSS</div>
+        <div class="skill"><img src="images/js.png"><br>JavaScript</div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="project">
+
+    <h2>My Projects</h2>
+
+    <div class="main-project">
+
+        <button id="prev">❮</button>
+
+        <div class="project-container">
+
+            <div class="card">
+                <img src="images/imagebazar.png" alt="project image">
+                <h3>Images Bazaar</h3>
+                <p>Image gallery website with responsive design and Load More functionality using JavaScript.</p>
+
+                <div class="project-btns">
+                    <button><a href="https://codesbysachin.github.io/images-bazaar/">Live Demo</a> </button>
+                    <button><a href="https://github.com/CodesBySachin/images-bazaar">Code</a></button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/digital-clock.png">
+                <h3>Digital Clock</h3>
+                <p>Shows real-time current time with responsive design.</p>
+
+                <div class="project-btns">
+                    <button><a href="https://codesbysachin.github.io/Digital-Clock/">Live Demo</a></button>
+                    <button><a href="https://github.com/CodesBySachin/Digital-Clock">Code</a></button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/calculator-image.png">
+                <h3>Calculator</h3>
+                <p>Basic arithmetic calculator for fast and simple calculations.</p>
+
+                <div class="project-btns">
+                    <button><a href="https://codesbysachin.github.io/Calculator-Web-App/">Live Demo</a></button>
+                    <button><a href="https://github.com/CodesBySachin/Calculator-Web-App">code</a></button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/softwarefree.png">
+                <h3>My Software free</h3>
+                <p>JavaScript-based toggle menu for website navigation.</p>
+
+                <div class="project-btns">
+                    <button><a href="https://codesbysachin.github.io/My-Software-free/">Live Demo</a></button>
+                    <button><a href="https://github.com/CodesBySachin/My-Software-free">code</a> </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/portfolio.png">
+                <h3>Portfolio</h3>
+                <p>Personal portfolio website showcasing my projects, skills, resume and contact.</p>
+
+                <div class="project-btns">
+                    <button><a href="#home">Live Demo</a></button>
+                    <button>Code</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/Loan-calculator.png">
+                <h3>Loan Calculator</h3>
+                <p>Real-time EMI calculator with instant results.</p>
+
+                <div class="project-btns">
+                    <button><a href="https://codesbysachin.github.io/Loan-Calculator/">Live demo</a></button>
+                    <button><a href="https://github.com/CodesBySachin/Loan-Calculator">Demo</a></button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/Counter.png">
+                <h3>Number Counter</h3>
+                <p>Simple counter with increase/decrease functionality.</p>
+
+                <div class="project-btns">
+                    <button><a href="https://codesbysachin.github.io/Number-Counter-Project/">Live Demo</a></button>
+                    <button><a href="https://github.com/CodesBySachin/Number-Counter-Project">Code</a> </button>
+                </div>
+            </div>
+            
+        </div>
+
+        <button id="next">❯</button>
+
+    </div>
+
+</section>
+
+<!-- Experience Section -->
+
+<section class="experience" id="experience">
+
+  <h2>Work Experience</h2>
+
+  <div class="experience-container">
+
+    <!-- Card -->
+
+    <div class="exp-card">
+
+      <div class="exp-top">
+
+        <h3>Assistant Executive Engineer</h3>
+
+        <span>September 2023 - Present </span>
+
+      </div>
+
+      <h4>Lazer Ken IT Services INDIA Pvt. Ltd.</h4>
+
+      <p>
+        Designed and developed 2D and 3D drawings using software AutoCAD and SolidWorks.<br>
+        Collaborated with cross-functional teams for project execution.<br>
+        Worked closely with the design team to improve workflow and quality.<br>
+        Improved design accuracy through analysis and documentation.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+  <!-- Contact -->
+  <section class="contact">
+
+    <h2>Contact Me</h2>
+
+    <div class="contact-info" id="contact">
+      <p>
+      <a href="iamsachin0917@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+          iamsachin0917@gmail.com
+      </a>
+   </p>
+
+   <p>
+      <a href="tel:+918130754988">
+        <i class="fa-solid fa-phone"></i>
+          +91 8130754988
+      </a>
+   </p>
+      
+      <p>India</p>
+    </div>
+
+    <div class="icon">
+      <a href="https://github.com/CodesBySachin"><img src="images/github.png"></a>
+      <a href="https://www.linkedin.com/in/sachin-kumar-570ba6302"><img src="images/linkedin.png"></a>
+      
+    </div>
+
+  </section>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
