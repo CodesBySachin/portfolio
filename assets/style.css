@@ -247,6 +247,44 @@ nav ul li a{
   cursor:pointer;
 }
 
+/* Education Section */
+.Education{
+  padding: 60px 8%;
+}
+
+.Education h2{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.Education-item h3{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Education-container h4{
+  margin:1px 0;
+  color:#ccc;
+}
+
+.Education-item span{
+  color:#5b7cff;
+  
+}
+
+.Education-item{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background:#11182d;
+  padding:20px;
+  border-radius:12px;
+  border-left:5px solid #5b7cff;
+  transition:.3s;
+  margin-bottom: 8px;
+}
+
+
 /* Experience Section */
 
 .experience{
