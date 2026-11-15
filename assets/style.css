@@ -400,26 +400,164 @@ nav ul li a{
   transform: scale(1.1);
 }
 
-/* Responsive */
 
-@media(max-width:768px){
+/* Responsive Design */
 
-  nav{
-    flex-direction:column;
-    gap:20px;
+@media (max-width: 992px) {
+
+  nav {
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 5%;
   }
 
-  .hero{
-    text-align:center;
-    justify-content:center;
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
   }
 
-  .hero-text h1{
-    font-size:40px;
+  .hero {
+    gap: 30px;
+    padding: 60px 5%;
   }
 
-  .hero-img img{
-    margin-top:30px;
+  .hero-text {
+    width: 55%;
+  }
+
+  .hero-text h1 {
+    font-size: 45px;
+  }
+
+  .hero-img img {
+    width: 240px;
   }
 
 }
+
+@media (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  nav ul {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .hero-text {
+    width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 38px;
+  }
+
+  .hero-img img {
+    width: 220px;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
+  .box {
+    width: 100%;
+  }
+
+  .skills {
+    justify-content: center;
+  }
+
+  .skill {
+    margin-left: 0;
+  }
+
+  .main-project {
+    gap: 8px;
+  }
+
+  .project-container {
+    min-width: 0;
+  }
+
+  .card {
+    min-width: 100%;
+    width: 100%;
+  }
+
+  .card img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  #next,
+  #prev {
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+    flex-shrink: 0;
+  }
+
+  .Education-item h3 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .exp-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  nav ul {
+    gap: 12px;
+  }
+
+  nav ul li a {
+    font-size: 13px;
+  }
+
+  .hero-text h1 {
+    font-size: 32px;
+  }
+
+  .hero-img img {
+    width: 180px;
+  }
+
+  .btns button {
+    padding: 10px 15px;
+    margin: 5px;
+  }
+
+  .box,
+  .exp-card,
+  .Education-item {
+    padding: 18px;
+  }
+
+  .exp-top h3 {
+    font-size: 18px;
+  }
+
+  .contact-info a {
+    font-size: 14px;
+  }
+
+}
+
